@@ -1,0 +1,203 @@
+{
+  "id": "tiempo-theme",
+  "name": "Tiempo",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema de relojería para toda la app: oro y papel, esquinas rectas y un ritmo más pausado",
+  "author": "JuanDEVYT",
+  "homepage": "https://github.com/JuanDEVYT/kino-theme-tiempo",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "color": "#C8A14A",
+  "icon": "icon.png",
+  "screen": {
+    "label": "Tiempo",
+    "labelEn": "Time",
+    "opensFrom": [
+      "menu"
+    ]
+  },
+  "appThemes": [
+    {
+      "id": "tiempo",
+      "name": {
+        "es": "Tiempo",
+        "en": "Time"
+      },
+      "colors": {
+        "accent": "#C8A14A",
+        "onAccent": "#14100C",
+        "background": "#14100C",
+        "surface": "#211A13",
+        "surfaceHigh": "#2C2318",
+        "textPrimary": "#F5EFE3",
+        "textSecondary": "#BFB099",
+        "outline": "#3A2F22",
+        "focus": "#4FB07A",
+        "onFocus": "#07130C",
+        "railPanel": "#1A1510",
+        "placeholderTop": "#2A2117",
+        "placeholderBottom": "#120E0A",
+        "success": "#5BBE8B",
+        "warning": "#E0A63C",
+        "error": "#D9534F",
+        "favorite": "#E0703C",
+        "scrim": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#14100C",
+          "#0E1410"
+        ],
+        "angle": 165
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "buttonRadius": 10,
+        "chipRadius": 8,
+        "dialogRadius": 12,
+        "inputRadius": 8
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.06,
+        "bodyScale": 1
+      },
+      "elevation": {
+        "cardShadow": 0.5,
+        "dialogShadow": 0.62,
+        "heroScrim": 0.74
+      },
+      "motion": {
+        "focusZoom": 1.05,
+        "crossfadeMs": 320,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1,
+        "playButtonScale": 1.12,
+        "seekBarScale": 1.06,
+        "labelScale": 1,
+        "buttonShape": "circle"
+      },
+      "phone": {
+        "shape": {
+          "cardRadius": 10
+        }
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.06
+        },
+        "shape": {
+          "cardRadius": 8
+        },
+        "motion": {
+          "focusZoom": 1.04
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#C8A14A",
+            "#D8B25E",
+            "#B07C3A",
+            "#4FB07A"
+          ]
+        },
+        "colors.focus": {
+          "swatches": [
+            "#4FB07A",
+            "#C8A14A",
+            "#FFFFFF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "shape.buttonRadius": {
+          "min": 0,
+          "max": 28
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.25
+        },
+        "player.playButtonScale": {
+          "min": 1,
+          "max": 1.35
+        },
+        "background": true
+      },
+      "pluginColors": "respect",
+      "experience": "full",
+      "logo": {
+        "mark": {
+          "size": [
+            260,
+            260
+          ],
+          "paths": [
+            {
+              "d": "M8 130A122 122 0 1 1 252 130A122 122 0 1 1 8 130ZM17 130A113 113 0 1 1 243 130A113 113 0 1 1 17 130Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M132 29L132 20L128 20L128 29ZM185 38L187 35L184 33L182 36ZM224 78L227 76L225 73L222 75ZM231 132L240 132L240 128L231 128ZM222 185L225 187L227 184L224 182ZM182 224L184 227L187 225L185 222ZM128 231L128 240L132 240L132 231ZM75 222L73 225L76 227L78 224ZM36 182L33 184L35 187L38 185ZM29 128L20 128L20 132L29 132ZM38 75L35 73L33 76L36 78ZM78 36L76 33L73 35L75 38Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M32 130A98 98 0 1 1 228 130A98 98 0 1 1 32 130ZM68 130A62 62 0 1 0 192 130A62 62 0 1 0 68 130Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M100 130A30 30 0 1 1 160 130A30 30 0 1 1 100 130Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            858,
+            266
+          ],
+          "paths": [
+            {
+              "d": "M5 133A424 128 0 1 1 853 133A424 128 0 1 1 5 133ZM47 133A382 115 0 1 1 811 133A382 115 0 1 1 47 133Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M0 49L0 240A21 21 0 0 0 42 240L42 49A21 21 0 0 0 0 49ZM125 72L52 166L129 255A21 21 0 0 0 159 225L94 166L157 100A21 21 0 0 0 125 72ZM26 187L73 187A21 21 0 0 0 73 145L26 145A21 21 0 0 0 26 187ZM196 101L196 240A21 21 0 0 0 238 240L238 101A21 21 0 0 0 196 101ZM192 39A25 25 0 1 1 242 39A25 25 0 1 1 192 39Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M317 240L317 101A21 21 0 0 0 275 101L275 240A21 21 0 0 0 317 240ZM317 172L318 161L320 152L322 144L326 138L331 132L336 128L342 124L349 121L356 120L364 119L371 119L376 121L381 123L385 125L388 128L391 132L393 137L395 143L397 150L397 158L397 240A21 21 0 0 0 439 240L439 158L438 145L436 133L432 121L427 110L420 101L411 92L400 86L389 81L377 78L364 77L350 78L336 81L323 87L311 94L301 103L292 114L285 126L279 140L276 155L275 170A21 21 0 0 0 317 172Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M464 168A98 98 0 1 1 658 168A98 98 0 1 1 464 168ZM498 168A62 62 0 1 0 624 168A62 62 0 1 0 498 168Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M530 168A30 30 0 1 1 592 168A30 30 0 1 1 530 168Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M665 26L736 26A13 13 0 0 0 736 0L665 0A13 13 0 0 0 665 26ZM687 13L687 98A13 13 0 0 0 713 98L713 13A13 13 0 0 0 687 13ZM758 18L807 111L857 18A13 13 0 0 0 833 8L807 85L782 8A13 13 0 0 0 758 18Z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@ ninguna productora ni franquicia y sin sus logos ni ilustraciones.
 Necesita **Kino 0.9.81 o superior**.
 
 1. Abre Kino y entra en **Ajustes ▸ Plugins**.
-2. Escribe `JuanDEVYT/kino-theme-tiempo` y confirma.
+2. Escribe `JuanDEVYT/kino-theme-loki` y confirma.
 3. Acepta la instalación.
 
 El tema se elige en **Ajustes ▸ Apariencia**, o desde la pantalla del propio plugin

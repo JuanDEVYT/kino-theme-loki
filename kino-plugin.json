@@ -1,12 +1,12 @@
 {
-  "id": "tiempo-theme",
+  "id": "loki-theme",
   "name": "Tiempo",
   "version": "1.0.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Tema de relojería para toda la app: oro y papel, esquinas rectas y un ritmo más pausado",
   "author": "JuanDEVYT",
-  "homepage": "https://github.com/JuanDEVYT/kino-theme-tiempo",
+  "homepage": "https://github.com/JuanDEVYT/kino-theme-loki",
   "hosts": [],
   "categories": [
     "themes"

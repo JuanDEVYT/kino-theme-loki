@@ -1,7 +1,7 @@
-// Tema "Tiempo" para Kino: la apariencia vive en kino-plugin.json (appThemes).
+// Tema "Loki" para Kino: la apariencia vive en kino-plugin.json (appThemes).
 // Este archivo solo dibuja la pantalla de presentación, que activa el tema.
 
-const THEME_ID = "tiempo";
+const THEME_ID = "loki";
 
 export async function screen({ activeTheme }) {
   const on = activeTheme === THEME_ID;
@@ -11,8 +11,8 @@ export async function screen({ activeTheme }) {
     appBar: {
       type: "AppBar",
       dense: true,
-      title: "Tiempo",
-      titleEn: "Time",
+      title: "Loki",
+      titleEn: "Loki",
       leading: {
         type: "IconButton",
         icon: "close",
@@ -32,14 +32,14 @@ export async function screen({ activeTheme }) {
           children: [
             {
               type: "Text",
-              text: "Tiempo",
-              textEn: "Time",
+              text: "Loki",
+              textEn: "Loki",
               style: "h1",
             },
             {
               type: "Text",
-              text: "Oro y papel sobre un fondo casi negro, esquinas rectas de expediente y un cambio de pantalla más pausado. El tema cambia Kino entero, en el celular y en el televisor.",
-              textEn: "Gold and paper over near-black, square archive corners and slower screen changes. The theme restyles all of Kino, on the phone and on the TV.",
+              text: "Oro y papel sobre un fondo casi negro, esquinas rectas de expediente y un cambio de pantalla más pausado. Lleva el logo de Kino dentro de un casco de cuernos, con el cuadrante de un reloj. El tema cambia Kino entero, en el celular y en el televisor.",
+              textEn: "Gold and paper over near-black, square archive corners and slower screen changes. It sets Kino's logo inside a horned helm, around a clock dial. The theme restyles all of Kino, on the phone and on the TV.",
             },
             {
               type: "Text",
